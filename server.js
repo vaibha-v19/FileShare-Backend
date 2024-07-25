@@ -4,7 +4,7 @@ const multer = require('multer');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 const cors = require('cors');
-const File = require('./models/File.js');
+const File = require('../models/File.js');
 
 const app = express();
 app.use(cors());
